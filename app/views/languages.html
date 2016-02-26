@@ -1,0 +1,11 @@
+<div class="row" ng-controller="MainCtrl as main">
+    <div class="col-xs-8 col-sm-9">
+        <esri-map id="main.map" webmap-id="a06407c84eb3414588ac40a5eec3716a" center="main.map.center" zoom="main.map.zoom">
+            <div esri-legend target-id="legend"></div>
+        </esri-map>
+        <p>Lat: {{ main.map.center.lat | number:3 }}, Lng: {{ main.map.center.lng | number:3 }}, Zoom: {{map.zoom}}</p>
+    </div>
+    <div class="col-xs-4 col-sm-3" style="overflow: auto; max-height: 400px;">
+        <div id="legend"></div>
+    </div>
+</div>
