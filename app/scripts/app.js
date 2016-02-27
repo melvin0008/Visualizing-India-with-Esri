@@ -20,6 +20,9 @@ angular
   ])
   .config(function ($routeProvider) {
     $routeProvider
+      .when('/india', {
+        templateUrl: 'views/india.html'
+      })
       .when('/languages', {
         templateUrl: 'views/languages.html'
       })
@@ -27,6 +30,6 @@ angular
         templateUrl: 'views/accidents.html'
       })
       .otherwise({
-        redirectTo: '/'
+        redirectTo: '/india'
       });
   });
