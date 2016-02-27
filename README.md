@@ -1,11 +1,11 @@
 # Visualizing India with Esri Maps
 
 Todos:
-[x] Languages in India
-[x] Accidents in India 
-[ ] Crop Produce in India
-[ ] Industrial Areas in India
-[ ] Rape Cases in India
+* [x] Languages in India
+* [x] Accidents in India 
+* [ ] Crop Produce in India
+* [ ] Industrial Areas in India
+* [ ] Rape Cases in India
 
 
 ## Build & development
