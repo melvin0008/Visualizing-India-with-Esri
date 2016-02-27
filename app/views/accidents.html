@@ -3,7 +3,9 @@
         <esri-map id="map" webmap-id="410a98d44ffe4cb4a125f2f56369e73f" center="map.center" zoom="map.zoom">
             <div esri-legend target-id="legend"></div>
         </esri-map>
-        <p>Lat: {{ map.center.lat | number:3 }}, Lng: {{ map.center.lng | number:3 }}, Zoom: {{map.zoom}}</p>
+        <div class="well">
+            Total Accidents in 2012 : 490,383   Data obtained from data.gov.in
+        </div>
     </div>
     <div class="col-xs-4 col-sm-3" style="overflow: auto; max-height: 400px;">
         <div id="legend"></div>
