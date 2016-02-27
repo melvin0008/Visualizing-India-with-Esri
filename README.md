@@ -1,7 +1,12 @@
-# locarcgis
+# Visualizing India with Esri Maps
 
-This project is generated with [yo angular generator](https://github.com/yeoman/generator-angular)
-version 0.11.1.
+Todos:
+[x] Languages in India
+[x] Accidents in India 
+[ ] Crop Produce in India
+[ ] Industrial Areas in India
+[ ] Rape Cases in India
+
 
 ## Build & development
 
